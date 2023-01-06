@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-gleam",
+    "title": "Pixel Perfect",
+    "details": "We create award-winning websites, remarkable brands and cutting-edge apps."
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-paint-bucket",
+    "title": "Creative Design",
+    "details": "We create award-winning websites, remarkable brands and cutting-edge apps."
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-medal",
+    "title": "Heigh Perfomance",
+    "details": "We create award-winning websites, remarkable brands and cutting-edge apps."
+  }
+]

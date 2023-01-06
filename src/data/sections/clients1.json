@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "lightImage": "/img/clients/brands/light/1.png",
+    "darkImage": "/img/clients/brands/dark/01.png",
+    "url": "EVme"
+  },
+  {
+    "id": 2,
+    "lightImage": "/img/clients/brands/light/2.png",
+    "darkImage": "/img/clients/brands/dark/02.png",
+    "url": "LeanAdvisory"
+  },
+  {
+    "id": 3,
+    "lightImage": "/img/clients/brands/light/3.png",
+    "darkImage": "/img/clients/brands/dark/03.png",
+    "url": "X10"
+  },
+  {
+    "id": 4,
+    "lightImage": "/img/clients/brands/light/4.png",
+    "darkImage": "/img/clients/brands/dark/04.png",
+    "url": "'True"
+  }
+]

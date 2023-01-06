@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "art & illustration",
+    "secTex": "Innovation and Crafts",
+    "image": "/img/portfolio/curs/1.jpg",
+    "slug": "/project-details/project-details-dark"
+  },
+  {
+    "id": 2,
+    "title": "art & illustration",
+    "secTex": "Inspiring new space",
+    "image": "/img/portfolio/curs/2.jpg",
+    "slug": "/project-details/project-details-dark"
+  },
+  {
+    "id": 3,
+    "title": "art & illustration",
+    "secTex": "Natural plus modern",
+    "image": "/img/portfolio/curs/3.jpg",
+    "slug": "/project-details/project-details-dark"
+  },
+  {
+    "id": 4,
+    "title": "art & illustration",
+    "secTex": "Innovation and Crafts",
+    "image": "/img/portfolio/curs/4.jpg",
+    "slug": "/project-details/project-details-dark"
+  },
+  {
+    "id": 5,
+    "title": "art & illustration",
+    "secTex": "Inspiring new space",
+    "image": "/img/portfolio/curs/5.jpg",
+    "slug": "/project-details/project-details-dark"
+  }
+]

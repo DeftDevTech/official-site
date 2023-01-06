@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "image1": "/img/intro/1.jpg",
+  "image2": "/img/intro/3.jpg",
+  "image3": "/img/intro/2.jpg",
+  "smallTitle": "About Us",
+  "title": { "first": "We are more than just", "second": "a digital agency." },
+  "content": "We are AVO. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp",
+  "features": [
+    {
+      "id": 1,
+      "icon": "gleam",
+      "name": { "first": "Pixel", "second": "Perfect" },
+      "wowDelay": ".3s"
+    },
+    {
+      "id": 2,
+      "icon": "paint-bucket",
+      "name": { "first": "Creative", "second": "Design" },
+      "wowDelay": ".5s"
+    },
+    {
+      "id": 3,
+      "icon": "medal",
+      "name": { "first": "Heigh", "second": "Perfomance" },
+      "wowDelay": ".8s"
+    }
+  ]
+}

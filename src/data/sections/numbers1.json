@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-smile",
+    "txt": "Happy Clients",
+    "value": "2400"
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-portfolio",
+    "txt": "Compleate Projects",
+    "value": "133"
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-cloud-download",
+    "txt": "Files Downloaded",
+    "value": "254"
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-medal",
+    "txt": "Award Win",
+    "value": "46"
+  }
+]

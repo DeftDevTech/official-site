@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/img/team/01.jpg",
+    "name": "(Yoh) Ekkachai",
+    "title": "Head of Engineer"
+  },
+  {
+    "id": 2,
+    "image": "/img/team/02.jpg",
+    "name": "(Keng) Wuttisak",
+    "title": "Business Development "
+  },
+  {
+    "id": 3,
+    "image": "/img/team/03.jpg",
+    "name": "(Ooy) Chutimonthakarn",
+    "title": "QA Lead "
+  },
+  {
+    "id": 4,
+    "image": "/img/team/4.jpg",
+    "name": "(Wan) Wantip",
+    "title": "Tech Lead"
+  },
+  {
+    "id": 5,
+    "image": "/img/team/5.jpg",
+    "name": "(Mint) Chayanan",
+    "title": "Full Stack Developer "
+  },
+  {
+    "id": 6,
+    "image": "/img/team/6.jpg",
+    "name": "(Tikk) Weerawat",
+    "title": "Full Stack Developer "
+  },
+  {
+    "id": 6,
+    "image": "/img/team/6.jpg",
+    "name": "(Bee) Sittiporn",
+    "title": "Full Stack Developer "
+  },
+  {
+    "id": 6,
+    "image": "/img/team/6.jpg",
+    "name": "(Igq) Chirakit",
+    "title": "Project Manager"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "first": "Unique",
+      "second": "brand Stories"
+    },
+    "image": "/img/slid/01.jpg"
+  },
+  {
+    "id": 2,
+    "title": {
+      "first": "Digital",
+      "second": "Design Awards"
+    },
+    "image": "/img/slid/03.jpg"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Original",
+      "second": "Solutions"
+    },
+    "image": "/img/slid/02.jpg"
+  }
+]

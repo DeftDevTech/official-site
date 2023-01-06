@@ -1,0 +1,106 @@
+.blog-crv .item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.block-sec .testim-box .slick-dots li button {
+  display: block;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider .social-icon a {
+  margin: 0 3px;
+}
+.navbar .navbar-nav .nav-link {
+  text-transform: capitalize;
+}
+.navbar .navbar-nav .nav-link,
+.video .vid .vid-butn .icon,
+.video-wrapper .vid .vid-butn .icon {
+  cursor: pointer;
+}
+.block-sec .vid-area {
+  z-index: 99;
+}
+.div-tooltip-tit,
+.div-tooltip-sub {
+  display: block;
+  padding: 0;
+}
+section.testimonials {
+  overflow: hidden;
+}
+.contact-page .pages-header {
+  overflow: hidden;
+}
+.CircularProgressbar {
+  width: 110px;
+  height: 110px;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+body .slick-dots li button {
+  display: block !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.team .navs span.next.cursor-pointer {
+  margin: 0 7px;
+}
+.projdtal .justified-gallery a {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.projdtal .justified-gallery img {
+  min-height: 440px;
+  height: 440px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.projdtal .justified-gallery .big-img {
+  min-height: 700px;
+  height: 700px;
+}
+.topnav .menu-icon {
+  display: flex;
+}
+@media screen and (max-width: 991px) {
+  .collapse {
+    display: block;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+  .navbar .navbar-collapse.show-with-trans {
+    opacity: 1;
+    padding: 10px 15px;
+    height: auto;
+    transition: all 0.3s linear;
+  }
+}
+section.next-prog {
+  overflow: hidden;
+}
+.hideX #preloader {
+  display: none !important;
+  z-index: -1111111;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+.hideX .pace {
+  display: none !important;
+}
+
+#ieatmaps iframe {
+  width: 100%;
+  height: 100%;
+}
+section.team.section-padding {
+  overflow: hidden;
+}
