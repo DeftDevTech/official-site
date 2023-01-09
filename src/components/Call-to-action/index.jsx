@@ -6,6 +6,7 @@ const CallToAction = ({ img, theme, subBG }) => {
   return (
     <section
       className={`call-action section-padding ${subBG ? 'sub-bg' : ''} bg-img`}
+      id="call-action"
       style={{
         backgroundImage: `url(${
           img ? img : `${process.env.BASE_PATH}/img/pattern.png`

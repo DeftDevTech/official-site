@@ -4,11 +4,11 @@ import Split from '../Split';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import ModalVideo from 'react-modal-video';
+// import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
 
 const VideoWithTestimonials = () => {
-  const [isOpen, setOpen] = React.useState(false);
+  // const [isOpen, setOpen] = React.useState(false);
   React.useEffect(() => {
     console.clear();
   }, []);
@@ -25,7 +25,7 @@ const VideoWithTestimonials = () => {
       <div
         className="background bg-img section-padding pb-0"
         style={{
-          backgroundImage: `url(${process.env.BASE_PATH}/img/slid/1.jpg)`
+          backgroundImage: `url(${process.env.BASE_PATH}/img/banner_bg/slide-5.png`
         }}
         data-overlay-dark="8"
       >
@@ -33,7 +33,7 @@ const VideoWithTestimonials = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="vid-area">
-                <div className="vid-icon">
+                {/* <div className="vid-icon">
                   {typeof window !== 'undefined' && (
                     <ModalVideo
                       channel="vimeo"
@@ -57,12 +57,16 @@ const VideoWithTestimonials = () => {
                       </span>
                     </div>
                   </a>
-                </div>
+                </div> */}
 
                 <div className="cont">
                   <Split>
-                    <h3 className="wow" data-splitting>
-                      So that&apos;s us. There&apos;s no other way to put it.
+                    <h3
+                      style={{ letterSpacing: `.2rem` }}
+                      className="wow spac "
+                      data-splitting
+                    >
+                      {`What  we  provide  for  customers?`}
                     </h3>
                   </Split>
                 </div>
@@ -83,7 +87,7 @@ const VideoWithTestimonials = () => {
                   className="slic-item wow fadeInUp"
                   data-wow-delay=".5s"
                 >
-                  <div className="item">
+                  {/* <div className="item">
                     <p>
                       Design and develop a landing web pages to promote and
                       market EVme products and services. Website should be
@@ -109,53 +113,56 @@ const VideoWithTestimonials = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Migrate the Bill Digital Hub system to a dynamic extension
+                      and restful API service for easier maintenance and use by
+                      those with limited technical skills while maintaining high
+                      performance.
                     </p>
                     <div className="info">
-                      <div className="img">
+                      {/* <div className="img">
                         <div className="img-box">
                           <img
                             src={`${process.env.BASE_PATH}/img/clients/2.jpg`}
                             alt=""
                           />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">True</h6>
-                          <span className="author-details">
+                          {/* <span className="author-details">
                             Co-founder, Colabrio
-                          </span>
+                          </span> */}
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      Design and develop a landing web pages to promote and
+                      market EVme products and services. Website should be
+                      compliant with PDPA, integrate with google analytics and
+                      FB pixels, support SEO and have a content management
+                      system, and have a maintenance page.
                     </p>
                     <div className="info">
-                      <div className="img">
+                      {/* <div className="img">
                         <div className="img-box">
                           <img
                             src={`${process.env.BASE_PATH}/img/clients/3.jpg`}
                             alt=""
                           />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">EVme</h6>
-                          <span className="author-details">
+                          {/* <span className="author-details">
                             Co-founder, Colabrio
-                          </span>
+                          </span> */}
                         </div>
                       </div>
                     </div>

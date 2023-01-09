@@ -121,10 +121,7 @@ const Footer = ({ noSubBG }) => {
           </div>
         </div>
         <div className="copyrights text-center">
-          <p>
-            © 2022, Avo Template. Made with passion by{' '}
-            <a href="#0">ThemesCamp</a>.
-          </p>
+          <p>© 2023, DeftDev. All rights reserved.</p>
         </div>
       </div>
     </footer>

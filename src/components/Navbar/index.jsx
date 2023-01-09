@@ -4,7 +4,7 @@ import { Formik, Form, Field } from 'formik';
 import Link from 'next/link';
 import appData from '../../data/app.json';
 import {
-  handleDropdown,
+  // handleDropdown,
   handleMobileDropdown,
   handleSearch
 } from '../../common/navbar';
