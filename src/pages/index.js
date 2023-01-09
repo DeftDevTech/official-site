@@ -56,7 +56,7 @@ const Homepage1 = () => {
         <Services1 />
         <Clients1 theme="light" />
         <VideoWithTestimonials />
-        <Team />
+        {/* <Team /> */}
         <CallToAction theme="light" img="/img/pattern-light.png" />
         <Footer />
       </div>
