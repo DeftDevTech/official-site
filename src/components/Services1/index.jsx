@@ -21,7 +21,9 @@ const Services1 = () => {
           <div
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
-            style={{ backgroundImage: 'url(/img/1.jpg)' }}
+            style={{
+              backgroundImage: `url(${process.env.BASE_PATH}/img/1.jpg)`
+            }}
           >
             <h4 className="custom-font">What we do?</h4>
             <Link href="/about/about-dark">

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>DeftDev | Trust Deft</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href={`${process.env.BASE_PATH}/img/favicon.ico`} />
       </Head>
       <Cursor />
       <LoadingScreen />
@@ -28,13 +28,20 @@ function MyApp({ Component, pageProps }) {
         id="splitting"
         src={`${process.env.BASE_PATH}/js/splitting.min.js`}
       ></Script>
-      <Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
+      <Script
+        id="simpleParallax"
+        src={`${process.env.BASE_PATH}/js/simpleParallax.min.js`}
+      ></Script>
       <Script
         strategy="beforeInteractive"
         id="isotope"
         src={`${process.env.BASE_PATH}/js/isotope.pkgd.min.js`}
       ></Script>
-      <Script strategy="lazyOnload" id="initWow" src="/js/initWow.js"></Script>
+      <Script
+        strategy="lazyOnload"
+        id="initWow"
+        src={`${process.env.BASE_PATH}/js/initWow.js`}
+      ></Script>
     </>
   );
 }

@@ -57,7 +57,10 @@ const Homepage1 = () => {
         <Clients1 theme="light" />
         <VideoWithTestimonials />
         {/* <Team /> */}
-        <CallToAction theme="light" img="/img/pattern-light.png" />
+        <CallToAction
+          theme="light"
+          img={`${process.env.BASE_PATH}/img/pattern-light.png`}
+        />
         <Footer />
       </div>
     </LightTheme>
