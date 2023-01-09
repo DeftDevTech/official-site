@@ -6537,3 +6537,9 @@ header.simpl .caption .btn-curve {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+/* ================================= custom css ================================= */
+
+.block-sec .testim-box {
+  margin-bottom: 50px !important;
+}

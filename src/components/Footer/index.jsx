@@ -52,11 +52,17 @@ const Footer = ({ noSubBG }) => {
                   <a href="#0" className="icon">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.linkedin.com/company/deftdev"
+                    className="icon"
+                  >
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                  <a
+                    href="https://app.gather.town/invite?token=8Incx0J2TBem8r7DNgqW"
+                    className="icon"
+                  >
+                    <i className="fa fa-building"></i>
                   </a>
                   {/* <a href="#0" className="icon">
                     <i className="fab fa-behance"></i>
@@ -121,10 +127,7 @@ const Footer = ({ noSubBG }) => {
           </div>
         </div>
         <div className="copyrights text-center">
-          <p>
-            © 2022, Avo Template. Made with passion by{' '}
-            <a href="#0">ThemesCamp</a>.
-          </p>
+          <p>© 2023, DeftDev. All rights reserved.</p>
         </div>
       </div>
     </footer>

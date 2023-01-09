@@ -22,11 +22,11 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
             style={{
-              backgroundImage: `url(${process.env.BASE_PATH}/img/1.jpg)`
+              backgroundImage: `url(${process.env.BASE_PATH}/img/banner_bg/slide-4.png)`
             }}
           >
             <h4 className="custom-font">What we do?</h4>
-            <Link href="/about/about-dark">
+            <Link href="#call-action">
               <a className="btn-curve btn-bord btn-lit mt-40">
                 <span>Contact us</span>
               </a>
@@ -36,7 +36,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".5s"
           >
-            <span className="icon pe-7s-paint-bucket"></span>
+            <span className="icon pe-7s-add-user"></span>
             <h6>Outsource Team</h6>
             <p>
               a third-party vendor to handle specific tasks or functions on a
@@ -47,20 +47,18 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
-            <span className="icon pe-7s-phone"></span>
-            <h6>Turnkey Project</h6>
+            <span className="icon pe-7s-browser"></span>
+            <h6>Software solution</h6>
             <p>
               a fully operation and facility that is delivered to a client ready
-              for use, with minimal setup or additional work required. We is
-              responsible for designing, develop, and testing the project before
-              handing it over to the client.
+              for use, with designing, develop, and testing.
             </p>
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-display1"></span>
+            <span className="icon pe-7s-rocket"></span>
             <h6>Core Product</h6>
             <p>Comming Soon</p>
           </div>

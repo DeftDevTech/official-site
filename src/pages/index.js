@@ -1,17 +1,17 @@
 import React from 'react';
-import AboutUs1 from '../components/About-us1';
-import BlogsTwoColumnSlider from '../components/Blogs-two-column-slider';
+// import AboutUs1 from '../components/About-us1';
+// import BlogsTwoColumnSlider from '../components/Blogs-two-column-slider';
 import CallToAction from '../components/Call-to-action';
 import Clients1 from '../components/Clients1';
 import Footer from '../components/Footer';
 import IntroWithSlider1 from '../components/Intro-with-slider1';
 import Navbar from '../components/Navbar';
-import Numbers1 from '../components/Numbers';
+// import Numbers1 from '../components/Numbers';
 import Services1 from '../components/Services1';
-import SkillsCircle from '../components/Skills-circle';
+// import SkillsCircle from '../components/Skills-circle';
 import VideoWithTestimonials from '../components/Video-with-testimonials';
-import Works1Slider from '../components/Works1-slider';
-import Team from '../components/Team1';
+// import Works1Slider from '../components/Works1-slider';
+// import Team from '../components/Team1';
 import LightTheme from '../layouts/Light';
 import appData from '../data/app.json';
 
@@ -59,7 +59,6 @@ const Homepage1 = () => {
         <Services1 />
         <Clients1 theme="light" />
         <VideoWithTestimonials />
-        {/* <Team /> */}
         <CallToAction
           theme="light"
           img={`${process.env.BASE_PATH}/img/pattern-light.png`}
