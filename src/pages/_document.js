@@ -25,7 +25,10 @@ class MyDocument extends Document {
             content="Avo - Onepage Multi-Purpose HTML5 Template"
           />
           <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link
+            rel="shortcut icon"
+            href={`${process.env.BASE_PATH}/img/favicon.ico`}
+          />
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"

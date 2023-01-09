@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       <Script
         strategy="beforeInteractive"
         id="wow"
-        src={`${process.env.BASE_PATH}/js/wow.min.js"`}
+        src={`${process.env.BASE_PATH}/js/wow.min.js`}
       ></Script>
       <Script
         strategy="beforeInteractive"

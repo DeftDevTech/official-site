@@ -40,10 +40,13 @@ const Homepage1 = () => {
     window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add('nav-scroll');
-        logo.setAttribute('src', appData.darkLogo);
+        logo.setAttribute('src', `${process.env.BASE_PATH}${appData.darkLogo}`);
       } else {
         navbar.classList.remove('nav-scroll');
-        logo.setAttribute('src', appData.lightLogo);
+        logo.setAttribute(
+          'src',
+          `${process.env.BASE_PATH}${appData.lightLogo}`
+        );
       }
     });
   }, [fixedSlider, MainContent, navbarRef]);
