@@ -25,7 +25,7 @@ const VideoWithTestimonials = () => {
       <div
         className="background bg-img section-padding pb-0"
         style={{
-          backgroundImage: `url(${process.env.BASE_PATH}/img/banner_bg/slide-5.png`
+          backgroundImage: `url(${process.env.BASE_PATH}/img/business_statistic.jpg`
         }}
         data-overlay-dark="8"
       >
@@ -132,7 +132,9 @@ const VideoWithTestimonials = () => {
                       </div> */}
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name custom-font">True</h6>
+                          <h6 className="author-name custom-font">
+                            True Corporation Pub Co., Ltd.
+                          </h6>
                           {/* <span className="author-details">
                             Co-founder, Colabrio
                           </span> */}
@@ -159,7 +161,9 @@ const VideoWithTestimonials = () => {
                       </div> */}
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name custom-font">EVme</h6>
+                          <h6 className="author-name custom-font">
+                            EVME PLUS Co., Ltd.
+                          </h6>
                           {/* <span className="author-details">
                             Co-founder, Colabrio
                           </span> */}

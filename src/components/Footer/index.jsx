@@ -56,7 +56,7 @@ const Footer = ({ noSubBG }) => {
                     <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                    <i className="fa fa-building"></i>
                   </a>
                   {/* <a href="#0" className="icon">
                     <i className="fab fa-behance"></i>

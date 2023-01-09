@@ -51,9 +51,7 @@ const Services1 = () => {
             <h6>Software solution</h6>
             <p>
               a fully operation and facility that is delivered to a client ready
-              for use, with minimal setup or additional work required. We is
-              responsible for designing, develop, and testing the project before
-              handing it over to the client.
+              for use, with designing, develop, and testing.
             </p>
           </div>
           <div

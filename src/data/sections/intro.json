@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": {
-      "first": "Digital ",
-      "second": "driven Enterprise"
+      "first": "Digital-driven",
+      "second": "Enterprise"
     },
     "content": "transform the way it operates. This includes using digital tools to streamline processes, and improve decision-making for the best personalized experiences.",
     "image": "/img/banner_bg/slide-1.png"
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": {
-      "first": "Full stack ",
+      "first": "Full-stack ",
       "second": "Technology solution"
     },
     "content": "a comprehensive and integrated end-to-end solution for businesses. It includes all the necessary components to solve a problem or meet a need.",
@@ -19,7 +19,10 @@
   },
   {
     "id": 3,
-    "title": "Development as owner",
+    "title": {
+      "first": "Develop your product ",
+      "second": "as ours."
+    },
     "content": "rather than outsourcing development to a third party. This approach allows the company to have full control over the development process and realize the full benefits of the project.",
     "image": "/img/banner_bg/slide-3.png"
   }
