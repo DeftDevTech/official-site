@@ -21,18 +21,18 @@ function MyApp({ Component, pageProps }) {
       <Script
         strategy="beforeInteractive"
         id="wow"
-        src="/js/wow.min.js"
+        src={`${process.env.BASE_PATH}/js/wow.min.js"`}
       ></Script>
       <Script
         strategy="beforeInteractive"
         id="splitting"
-        src="/js/splitting.min.js"
+        src={`${process.env.BASE_PATH}/js/splitting.min.js`}
       ></Script>
       <Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
       <Script
         strategy="beforeInteractive"
         id="isotope"
-        src="/js/isotope.pkgd.min.js"
+        src={`${process.env.BASE_PATH}/js/isotope.pkgd.min.js`}
       ></Script>
       <Script strategy="lazyOnload" id="initWow" src="/js/initWow.js"></Script>
     </>

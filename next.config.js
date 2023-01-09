@@ -1,8 +1,8 @@
 const path = require('path');
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = '';
-let basePath = '';
+let assetPrefix = '/out/';
+let basePath = '/out';
 
 if (isGithubActions) {
   // trim off `<owner>/`
@@ -12,14 +12,9 @@ if (isGithubActions) {
   basePath = `/${repo}`;
 }
 
-console.log('### ', {
-  assetPrefix,
-  basePath
-});
-
 module.exports = {
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  basePath,
+  assetPrefix,
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'css')]
@@ -30,5 +25,8 @@ module.exports = {
   },
   eslint: {
     ignoreDuringBuilds: false
+  },
+  env: {
+    BASE_PATH: basePath
   }
 };
