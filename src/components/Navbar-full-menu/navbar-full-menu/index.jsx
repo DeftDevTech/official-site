@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Split from "../../Split";
-import Link from "next/link";
-import appData from "../../../data/app.json";
-import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
+import React from 'react';
+import Split from '../../Split';
+import Link from 'next/link';
+import appData from '../../../data/app.json';
+import handleFullScreenNavbar from '../../../common/handleFullScreenNavbar';
 
 const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
@@ -13,19 +13,28 @@ const NavbarFullMenu = ({ theme, lr }) => {
     <>
       <div
         id="navi"
-        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
+        className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}
       >
         <div className="container-fluid">
           <div className="logo">
             <a href="#0">
               {theme ? (
-                theme === "light" ? (
-                  <img src={`${appData.darkLogo}`} alt="logo" />
+                theme === 'light' ? (
+                  <img
+                    src={`${process.env.BASE_PATH}${appData.darkLogo}`}
+                    alt="logo"
+                  />
                 ) : (
-                  <img src={`${appData.lightLogo}`} alt="logo" />
+                  <img
+                    src={`${process.env.BASE_PATH}${appData.lightLogo}`}
+                    alt="logo"
+                  />
                 )
               ) : (
-                <img src={`${appData.lightLogo}`} alt="logo" />
+                <img
+                  src={`${process.env.BASE_PATH}${appData.lightLogo}`}
+                  alt="logo"
+                />
               )}
             </a>
           </div>

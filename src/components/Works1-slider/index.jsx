@@ -1,12 +1,12 @@
-import React from "react";
-import works1SliderData from "../../data/sections/works1Slider.json";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react';
+import works1SliderData from '../../data/sections/works1Slider.json';
+import { Swiper, SwiperSlide } from 'swiper/react';
 // import Swiper core and required modules
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-import Link from "next/link";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import Link from 'next/link';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Works1Slider = () => {
@@ -25,7 +25,7 @@ const Works1Slider = () => {
                 loop={true}
                 navigation={{
                   prevEl: navigationPrevRef.current,
-                  nextEl: navigationNextRef.current,
+                  nextEl: navigationNextRef.current
                 }}
                 onBeforeInit={(swiper) => {
                   swiper.params.navigation.prevEl = navigationPrevRef.current;
@@ -43,26 +43,26 @@ const Works1Slider = () => {
                 }}
                 autoplay={{
                   delay: 2500,
-                  disableOnInteraction: false,
+                  disableOnInteraction: false
                 }}
                 speed={1000}
                 breakpoints={{
                   320: {
                     slidesPerView: 1,
-                    spaceBetween: 0,
+                    spaceBetween: 0
                   },
                   640: {
                     slidesPerView: 1,
-                    spaceBetween: 0,
+                    spaceBetween: 0
                   },
                   767: {
                     slidesPerView: 1,
                     spaceBetween: 0,
-                    centeredSlides: false,
+                    centeredSlides: false
                   },
                   991: {
-                    slidesPerView: 2,
-                  },
+                    slidesPerView: 2
+                  }
                 }}
               >
                 {works1SliderData.map((slide) => (
@@ -74,7 +74,7 @@ const Works1Slider = () => {
                       <div
                         className="item-img bg-img wow imago"
                         style={{
-                          backgroundImage: `url(${slide.image})`,
+                          backgroundImage: `url(${process.env.BASE_PATH}${slide.image})`
                         }}
                       ></div>
                       <div className="cont">

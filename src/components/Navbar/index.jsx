@@ -4,7 +4,7 @@ import { Formik, Form, Field } from 'formik';
 import Link from 'next/link';
 import appData from '../../data/app.json';
 import {
-  handleDropdown,
+  // handleDropdown,
   handleMobileDropdown,
   handleSearch
 } from '../../common/navbar';
@@ -25,12 +25,24 @@ const Navbar = ({ lr, nr, theme }) => {
           <a className="logo">
             {theme ? (
               theme === 'themeL' ? (
-                <img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
+                <img
+                  ref={lr}
+                  src={`${process.env.BASE_PATH}${appData.darkLogo}`}
+                  alt="logo"
+                />
               ) : (
-                <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
+                <img
+                  ref={lr}
+                  src={`${process.env.BASE_PATH}${appData.lightLogo}`}
+                  alt="logo"
+                />
               )
             ) : (
-              <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
+              <img
+                ref={lr}
+                src={`${process.env.BASE_PATH}${appData.lightLogo}`}
+                alt="logo"
+              />
             )}
           </a>
         </Link>

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
-import initIsotope from "../../common/initIsotope";
+import React from 'react';
+import Link from 'next/link';
+import initIsotope from '../../common/initIsotope';
 
 const WorksThreeColumnWithFilter = ({ filterPosition }) => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
@@ -10,7 +10,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
     if (pageLoaded) {
       setTimeout(() => {
         initIsotope();
-      }, 1000)
+      }, 1000);
     }
   }, [pageLoaded]);
   return (
@@ -19,11 +19,11 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
         <div className="row">
           <div
             className={`filtering ${
-              filterPosition === "center"
-                ? "text-center"
-                : filterPosition === "left"
-                ? "text-left"
-                : "text-right"
+              filterPosition === 'center'
+                ? 'text-center'
+                : filterPosition === 'left'
+                ? 'text-left'
+                : 'text-right'
             } smplx col-12`}
           >
             <div className="filter">
@@ -41,7 +41,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/01.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/01.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
@@ -57,7 +60,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/02.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/02.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
@@ -73,7 +79,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/03.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/03.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
@@ -89,7 +98,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/06.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/06.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
@@ -105,7 +117,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/05.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/05.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>
@@ -121,7 +136,10 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                 <Link href="/project-details/project-details-dark">
                   <a>
-                    <img src="/img/portfolio/mas/04.jpg" alt="image" />
+                    <img
+                      src={`${process.env.BASE_PATH}/img/portfolio/mas/04.jpg`}
+                      alt="image"
+                    />
                   </a>
                 </Link>
               </div>

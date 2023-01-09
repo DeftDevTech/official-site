@@ -1,7 +1,7 @@
 import React from 'react';
 import introData from '../../data/sections/intro.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from 'swiper';
 
 import 'swiper/css';
@@ -35,7 +35,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
-            speed={1000}
+            speed={5000}
             autoplay={{
               delay: 1000,
               disableOnInteraction: true
@@ -85,25 +85,25 @@ const IntroWithSlider1 = ({ sliderRef }) => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={{
+                    backgroundImage: `url(${process.env.BASE_PATH}${slide.image})`
+                  }}
                   data-overlay-dark="6"
                 >
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-7 col-md-9">
                         <div className="caption center">
-                          <Split>
-                            <h1 className="words chars splitting">
-                              {typeof slide.title === 'object' ? (
-                                <>
-                                  {slide.title.first} <br />
-                                  {slide.title.second}
-                                </>
-                              ) : (
-                                slide.title
-                              )}
-                            </h1>
-                          </Split>
+                          <h1 className="words chars splitting">
+                            {typeof slide.title === 'object' ? (
+                              <>
+                                {slide.title.first} <br />
+                                {slide.title.second}
+                              </>
+                            ) : (
+                              slide.title
+                            )}
+                          </h1>
                           {slide?.content && <p>{slide.content}</p>}
                           {/* <Link href="/about/about-dark">
                             <a className="btn-curve btn-lit mt-30">
@@ -138,7 +138,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           className="swiper-pagination top botm custom-font"
         ></div>
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <a href="#0">
             <i className="fab fa-facebook-f"></i>
           </a>
@@ -151,7 +151,7 @@ const IntroWithSlider1 = ({ sliderRef }) => {
           <a href="#0">
             <i className="fab fa-pinterest-p"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </header>
   );

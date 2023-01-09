@@ -12,7 +12,7 @@ const Clients1 = ({ theme, subBG }) => {
       className={`clients section-padding ${subBG ? 'sub-bg' : ''}`}
     >
       <div className="container">
-        <div className="row w-100">
+        <div className="row ">
           <div className="col-lg-4 valign">
             <div className="sec-head custom-font mb-0">
               <h6>DeftDev</h6>
@@ -21,11 +21,11 @@ const Clients1 = ({ theme, subBG }) => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-8 w-auto">
+          <div className="col-lg-8 mx-auto text-center">
             <div>
               <div className="row bord">
                 {first.map((item) => (
-                  <div key={item.id} className="col-md-3 col-4 brands">
+                  <div key={item.id} className="col-md-3 col-6 brands">
                     <div
                       className="item wow fadeIn"
                       data-wow-delay={`${
@@ -42,9 +42,16 @@ const Clients1 = ({ theme, subBG }) => {
                     >
                       <div className="img">
                         {theme === 'light' ? (
-                          <img src={item.lightImage} alt="" />
+                          <img
+                            src={`${process.env.BASE_PATH}${item.lightImage}`}
+                            style={{ filter: 'grayscale(1)' }}
+                            alt=""
+                          />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img
+                            src={`${process.env.BASE_PATH}${item.darkImage}`}
+                            alt=""
+                          />
                         )}
                         <Split>
                           <a

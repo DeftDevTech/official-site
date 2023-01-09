@@ -6,7 +6,12 @@ const CallToAction = ({ img, theme, subBG }) => {
   return (
     <section
       className={`call-action section-padding ${subBG ? 'sub-bg' : ''} bg-img`}
-      style={{ backgroundImage: `url(${img ? img : '/img/pattern.png'})` }}
+      id="call-action"
+      style={{
+        backgroundImage: `url(${
+          img ? img : `${process.env.BASE_PATH}/img/pattern.png`
+        })`
+      }}
     >
       <div className="container">
         <div className="row">
@@ -27,7 +32,7 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
+            <Link href="#contact">
               <a
                 className={`btn-curve ${
                   theme == 'light' ? 'btn-blc' : 'btn-lit'
