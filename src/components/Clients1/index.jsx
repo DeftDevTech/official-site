@@ -42,9 +42,15 @@ const Clients1 = ({ theme, subBG }) => {
                     >
                       <div className="img">
                         {theme === 'light' ? (
-                          <img src={item.lightImage} alt="" />
+                          <img
+                            src={`${process.env.BASE_PATH}${item.lightImage}`}
+                            alt=""
+                          />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img
+                            src={`${process.env.BASE_PATH}${item.darkImage}`}
+                            alt=""
+                          />
                         )}
                         <Split>
                           <a

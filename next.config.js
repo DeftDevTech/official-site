@@ -1,8 +1,8 @@
 const path = require('path');
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = '/out/';
-let basePath = '/out';
+let assetPrefix = '';
+let basePath = '';
 
 if (isGithubActions) {
   // trim off `<owner>/`
