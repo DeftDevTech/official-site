@@ -55,9 +55,11 @@ const Clients1 = ({ theme, subBG }) => {
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={`https://${item.url}`}
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>

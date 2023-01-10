@@ -13,18 +13,14 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
-          />
 
           <meta name="title" content="DeftDev | Trust Deft" />
 
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="Deft Dev is a company that uses technology to improve people's lives and provides high-quality products and services."
           />
-          <meta name="author" content="" />
+          <meta name="author" content="DeftDev" />
           <link
             rel="shortcut icon"
             href={`${process.env.BASE_PATH}/img/favicon.ico`}
