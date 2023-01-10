@@ -79,11 +79,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Partner</a>
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <Link href="#team">
                 <a className="nav-link">Team</a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link href="#contact">
                 <a className="nav-link">Contract</a>
