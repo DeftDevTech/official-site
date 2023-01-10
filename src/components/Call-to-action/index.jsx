@@ -32,7 +32,7 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="#contact">
+            <Link href="mailto:sale@deftdev.tech">
               <a
                 className={`btn-curve ${
                   theme == 'light' ? 'btn-blc' : 'btn-lit'
