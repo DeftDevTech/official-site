@@ -52,18 +52,24 @@ const Footer = ({ noSubBG }) => {
                   <a
                     href="https://www.instagram.com/deftdevtech"
                     className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/company/deftdev"
                     className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fab fa-linkedin"></i>
                   </a>
                   <a
                     href="https://app.gather.town/invite?token=8Incx0J2TBem8r7DNgqW"
                     className="icon"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="fa fa-building"></i>
                   </a>
