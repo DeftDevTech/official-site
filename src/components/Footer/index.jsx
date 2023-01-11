@@ -49,7 +49,10 @@ const Footer = ({ noSubBG }) => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a
+                    href="https://www.instagram.com/deftdevtech"
+                    className="icon"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a
