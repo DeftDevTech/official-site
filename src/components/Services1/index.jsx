@@ -37,7 +37,7 @@ const Services1 = () => {
             data-wow-delay=".5s"
           >
             <span className="icon pe-7s-add-user"></span>
-            <h6>Partner Team</h6>
+            <h6>Technology Partnerships</h6>
             <p>
               a third-party vendor to handle specific tasks or functions on a
               long-term basis for only your enterprise.
