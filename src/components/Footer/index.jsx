@@ -42,7 +42,7 @@ const Footer = ({ noSubBG }) => {
                     10310 (Floor 12A)
                   </li>
                   <li>
-                    <span>Phone : </span> (+66) 080-008-8686
+                    <span>Phone : </span> (+66) 062-296-8246
                   </li>
                 </ul>
               </div>
