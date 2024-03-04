@@ -39,7 +39,7 @@ const Footer = ({ noSubBG }) => {
                   </li>
                   <li>
                     <span>Address : </span> 65 Rama IX Rd, Huai Khwang, Bangkok
-                    10310 (Floor 12A)
+                    10310 (Floor 22)
                   </li>
                   <li>
                     <span>Phone : </span> (+66) 062-296-8246
